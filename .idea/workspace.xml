@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00b55748-30b2-4310-8950-57d39ed44145" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classes/request.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Testly.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/index.php" changelist="00b55748-30b2-4310-8950-57d39ed44145" time="1366013505328" ignored="false" />
-    <file path="/Dummy.txt" changelist="00b55748-30b2-4310-8950-57d39ed44145" time="1366019968515" ignored="false" />
+    <file path="/Dummy.txt" changelist="00b55748-30b2-4310-8950-57d39ed44145" time="1366020097609" ignored="false" />
     <file path="/test.php" changelist="00b55748-30b2-4310-8950-57d39ed44145" time="1366019585187" ignored="false" />
     <file path="/request.php" changelist="00b55748-30b2-4310-8950-57d39ed44145" time="1366019755281" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,10 +30,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="36" selection-start="1208" selection-end="1208" vertical-scroll-proportion="-9.793103">
+            <state line="31" column="0" selection-start="1535" selection-end="1535" vertical-scroll-proportion="0.61445785">
               <folding />
             </state>
           </provider>
@@ -49,10 +48,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="request.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="request.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/classes/request.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="280" selection-end="280" vertical-scroll-proportion="0.35820895">
+            <state line="14" column="0" selection-start="280" selection-end="280" vertical-scroll-proportion="-6.62069">
               <folding />
             </state>
           </provider>
@@ -77,9 +76,9 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/test.php" />
         <option value="$PROJECT_DIR$/classes/request.php" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -221,6 +220,11 @@
       <created>1366011572468</created>
       <updated>1366011572468</updated>
     </task>
+    <task id="LOCAL-00001" summary="WTF is this.">
+      <created>1366020101796</created>
+      <updated>1366020101796</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -289,7 +293,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <option name="LAST_COMMIT_MESSAGE" value="WTF is this." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -303,6 +307,7 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="WTF is this." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -329,13 +334,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="36" selection-start="1208" selection-end="1208" vertical-scroll-proportion="-9.793103">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="4" selection-start="4" selection-end="4" vertical-scroll-proportion="0.0">
@@ -345,7 +343,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/classes/request.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="280" selection-end="280" vertical-scroll-proportion="0.35820895">
+        <state line="14" column="0" selection-start="280" selection-end="280" vertical-scroll-proportion="-6.62069">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="0" selection-start="1535" selection-end="1535" vertical-scroll-proportion="0.61445785">
           <folding />
         </state>
       </provider>
