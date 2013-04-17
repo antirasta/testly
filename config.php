@@ -1,6 +1,7 @@
 <?php
 
-define('DATABASE _HOSTNAME', 'localhost'),;
-define('DATABASE_USERNAME' 'root'); //xampp vaikimisi tühi
-define('DATABASE_PASSWORD', 'password'); //xampp vaikimis tühi
-define('DATABASE_DATABASE', 'database_name')
+define ('DATABASE_HOSTNAME', 'localhost');
+define ('DATABASE_USERNAME', 'root');
+define ('DATABASE_DATABASE', 'testly');
+define ('DEFAULT_CONTROLLER', 'tests');
+define ('BASE_URL', '/testly/');
