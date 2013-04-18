@@ -14,11 +14,15 @@
 
 	<link rel="stylesheet" href="assets/css/normalize.css">
 	<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet">
-	<link rel="stylesheet" href="assets/css/main.css">
+	<base href="<?= BASE_URL ?>">
 	<script src="assets/js/vendor/modernizr-2.6.2.min.js"></script>
 	<style>
 		body {
 			padding-top:60px;
+			background-image:url="assets/img/ios.png";
+		}
+		body, html {
+			height:100%;
 		}
 	</style>
 </head>
@@ -35,7 +39,10 @@
 			<div class="nav-collapse collapse">
 				<ul class="nav">
 					<li class="active"><a href="<?= BASE_URL ?>tests">Home</a></li>
-					<li><a href="#about">About</a></li>
+					<li><a href="http://www.plugolabs.com/twitter-bootstrap-button-generator/" onClick="MyWindow=window.open('http://www.plugolabs.com/twitter-bootstrap-button-generator/','MyWindow','toolbar=no,' +
+ 'location=no,directories=no,status=no, menubar=no,scrollbars=no,resizable=yes,width=1024,' +
+  'height=768'); return false;">About</a></li>
+
 					<li><a href="<?= BASE_URL?>auth/logout">Logi välja</a></li>
 				</ul>
 			</div><!--/.nav-collapse -->
@@ -44,7 +51,7 @@
 </div>
 
 <!-- Add your site or application content here -->
-<div>
+<div class="container-fluid">
 <?php
 	require 'views/'.$request->controller.'_'.$request->action.'_view.php';
 ?>

@@ -20,9 +20,9 @@
 			max-width: 300px;
 			padding: 19px 29px 29px;
 			margin: 0 auto 20px;
-			background-color: #fff;
+			background-color:#d8d8d8;
 			border: 1px solid #e5e5e5;
-			-webkit-border-radius: 5px;
+			-webkit-border-radius: 6px;
 			-moz-border-radius: 5px;
 			border-radius: 5px;
 			-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
@@ -60,13 +60,13 @@
 <div class="container">
 
 	<form class="form-signin" method="post">
-		<h2 class="form-signin-heading">Heips! Logi sisse =)</h2>
+		<h2 class="form-signin-heading">Heips, logi sisse!</h2>
 		<input name="username" type="text" class="input-block-level" placeholder="Kasutajanimi">
 		<input name="password" type="password" class="input-block-level" placeholder="Parool">
 		<label class="checkbox">
 			<input type="checkbox" value="remember-me"> Jäta mind meelde
 		</label>
-		<button class="btn btn-large btn-primary" type="submit">Logi sisse</button>
+		<button class="btn btn-info btn-large" type="submit">Logi sisse</button>
 	</form>
 
 </div> <!-- /container -->

@@ -23,8 +23,12 @@ class user
 
 	public function require_auth()
 	{
+
+		// annab ligipääsu request-objektile
 		global $request;
 		if ($this->logged_in !== TRUE) {
+
+			//kontrollib, kas päring tuleb ajaxiga või otse
 			if (isset($_SERVER['HTTP_X_REQUESTED_WITH'])
 				&& $_SERVER['HTTP_X_REQUESTED_WITH'] == 'XMLHttpRequest'
 			) {

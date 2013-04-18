@@ -1,1 +1,7 @@
-<a href="http://buduaar.ee/Foorum/Forum/topic/334636&lk=1">#yolo</a>
+<head>
+
+</head>
+<body style="background-image:url(assets/img/ios.png)">
+<a href="http://www.yougotrickrolled.com/" class="btn btn-info btn-large">Loo test <i class="icon-white icon-play"></i></a>
+
+</body>
