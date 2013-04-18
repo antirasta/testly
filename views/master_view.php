@@ -19,10 +19,13 @@
 	<style>
 		body {
 			padding-top:60px;
-			background-image:url="assets/img/ios.png";
 		}
 		body, html {
+			background:url('<?=BASE_URL?>assets/img/ios.png');
 			height:100%;
+		}
+		table.table-bordered tr {
+			background-color: #f9f9f9;
 		}
 	</style>
 </head>

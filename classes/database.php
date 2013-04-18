@@ -11,6 +11,13 @@ function q($sql, $debug = FALSE)
 		print"<pre>$sql</pre>";
 	}
 }
+function get_all($sql) {
+	$q=mysql_query($sql) or exit(mysql_error());
+	while (($result[]=mysql_fetch_assoc($q)) || array_pop($result)) {
+			;
+	}
+	return $result;
+}
 
 function get_one($sql, $debug = FALSE)
 {
