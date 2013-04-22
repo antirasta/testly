@@ -12,16 +12,26 @@
 
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-	<link rel="stylesheet" href="assets/css/normalize.css">
+	<link rel="stylesheet" href="<?=ASSETS_URL?>css/normalize.css">
 	<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet">
-	<base href="<?= BASE_URL ?>">
-	<script src="assets/js/vendor/modernizr-2.6.2.min.js"></script>
+	<script src="<?=ASSETS_URL?>js/vendor/modernizr-2.6.2.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="<?=ASSETS_URL?>js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
+	<script src="<?=ASSETS_URL?>js/plugins.js"></script>
+	<script src="<?=ASSETS_URL?>js/main.js"></script>
+	<script>BASE_URL='<?=BASE_URL?>'</script>
+	<?if(!empty($this->scripts)) :  ?>
+	<?foreach($this-> scripts as $script) :?>
+	<script src="<?=ASSETS_URL?>js/<?=$script?>"></script>
+	<?endforeach?>
+	<?endif?>
 	<style>
 		body {
 			padding-top:60px;
 		}
 		body, html {
-			background:url('<?=BASE_URL?>assets/img/ios.png');
+			background:url('<?=ASSETS_URL?>img/ios.png');
 			height:100%;
 		}
 		table.table-bordered tr {
@@ -63,10 +73,7 @@
 <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
 <![endif]-->
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
-<script src="assets/js/plugins.js"></script>
-<script src="assets/js/main.js"></script>
+
 
 </body>
 </html>
